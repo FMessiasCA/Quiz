@@ -1,0 +1,141 @@
+/* GERAIS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.6rem;
+
+  background-color: #0F172A;
+}
+
+/* QUIZ-BODY */
+main {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+header {
+  margin-top: 6.4rem;
+  padding-bottom: 2.4rem;
+  border-bottom: 1px solid #334155;
+}
+
+header h1 {
+  margin-top: 2.4rem;
+  font-size: 3rem;
+  color: #f1f5f9;
+}
+
+#quiz {
+  counter-reset: quiz-item;
+}
+
+.quiz-item{
+  margin-bottom: 2.4rem;
+  border: 1px solid #475569;
+  border-radius: 6px;
+
+  overflow: hidden;
+}
+
+.quiz-item h3 {
+  padding: 1.6rem 2rem;
+  color: #E2E8F0;
+
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+
+  background-color: #1e293B;
+}
+
+.quiz-item h3:before {
+  counter-increment: quiz-item;
+  content: counter(quiz-item);
+
+  background-color: #475569;
+  width: 2.8rem;
+  height: 2.8rem;
+  font-size: 1.2rem;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.quiz-item dl {
+  padding: 2rem 2.4rem;
+
+  display: grid;
+  gap: .8rem;
+}
+
+.quiz-item dl dt {
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  letter-spacing: 0;
+
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+
+  color: #E2E8F0;
+}
+
+/* QUIZ- INPUTS */
+input {
+  all: unset;
+  width: 1.6rem;
+  height: 1.6rem;
+  
+  border: 1px solid #94A3B8;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+input:checked {
+  border: 1px solid #A3E635;
+}
+
+input:checked::before {
+  content: '';
+  width: 1rem;
+  height: 1rem;
+
+  background-color: #A3E635;
+  border-radius: 50%;
+}
+
+/* ALERT */
+#hits {
+  text-align: center;
+  background-color: #A3E635;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  padding: 1.2rem;
+}
