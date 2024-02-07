@@ -1,92 +1,102 @@
 export const perguntas = [
   {
-    pergunta: "Qual é a finalidade do comando 'console.log()' em JavaScript?",
+    pergunta: "Qual é o nome verdadeiro de Jon Snow?",
     respostas: [
-      "Exibir uma mensagem de erro",
-      "Imprimir dados no console",
-      "Criar uma variável"
-    ],
-    correta: 1
-  },
-  {
-    pergunta: "Qual é a função do operador '===' em comparações em JavaScript?",
-    respostas: [
-      "Comparação de valores sem considerar o tipo",
-      "Atribuição de valores",
-      "Comparação estrita de valores e tipos"
-    ],
-    correta: 2
-  },
-  {
-    pergunta: "O que é um array em JavaScript?",
-    respostas: [
-      "Um tipo de dado que armazena apenas números",
-      "Uma coleção ordenada de elementos",
-      "Um tipo de dado que armazena apenas strings"
-    ],
-    correta: 1
-  },
-  {
-    pergunta: "Qual é o operador usado para atribuição de valores em JavaScript?",
-    respostas: [
-      "===",
-      "=",
-      "=="
-    ],
-    correta: 1
-  },
-  {
-    pergunta: "O que é o DOM em JavaScript?",
-    respostas: [
-      "Um modelo de objeto para acessar e manipular documentos HTML",
-      "Uma biblioteca JavaScript popular",
-      "Um padrão de design para estruturar código JavaScript"
+      "Aegon Targaryen",
+      "Brandon Stark",
+      "Jaehaerys Targaryen",
+      "Rhaegar Targaryen"
     ],
     correta: 0
   },
   {
-    pergunta: "O que é uma função em JavaScript?",
+    pergunta: "Qual é o título dado aos líderes dos Caminhantes Brancos?",
     respostas: [
-      "Um tipo de dado que armazena apenas números",
-      "Um objeto que armazena variáveis",
-      "Um bloco de código reutilizável que realiza uma tarefa específica"
+      "Mestre dos Caminhantes",
+      "Rei da Noite",
+      "Senhor do Gelo",
+      "Conquistador de Inverno"
     ],
-    correta: 2
+    correta: 1
   },
   {
-    pergunta: "Como se declara uma variável em JavaScript?",
+    pergunta: "Quem matou Balon Greyjoy?",
     respostas: [
-      "let myVar = 10;",
-      "variable myVar = 10;",
-      "var myVar = 10;"
+      "Theon Greyjoy",
+      "Euron Greyjoy",
+      "Stannis Baratheon",
+      "Melisandre"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é o nome da espada de Brienne de Tarth?",
+    respostas: [
+      "Garralonga",
+      "Corvo",
+      "Gelo",
+      "Oathkeeper"
+    ],
+    correta: 3
+  },
+  {
+    pergunta: "Quem é o pai biológico de Joffrey Baratheon?",
+    respostas: [
+      "Jaime Lannister",
+      "Robert Baratheon",
+      "Eddard Stark",
+      "Petyr Baelish"
     ],
     correta: 0
   },
   {
-    pergunta: "O que é uma string em JavaScript?",
+    pergunta: "Qual é o nome do cavalo de Daenerys Targaryen?",
     respostas: [
-      "Um tipo de dado que armazena apenas números",
-      "Uma coleção de elementos",
-      "Uma sequência de caracteres"
+      "Sombra",
+      "Tempestade",
+      "Drogo",
+      "Rhaegal"
     ],
-    correta: 2
+    correta: 1
   },
   {
-    pergunta: "Qual é a sintaxe correta para um comentário de uma linha em JavaScript?",
+    pergunta: "Quem é conhecido como 'O Espadachim Mais Rápido de Westeros'?",
     respostas: [
-      "// Comentário de uma linha",
-      "/* Comentário de uma linha */",
-      "<!-- Comentário de uma linha -->"
+      "Jaime Lannister",
+      "Arya Stark",
+      "Syrio Forel",
+      "Barristan Selmy"
+    ],
+    correta: 3
+  },
+  {
+    pergunta: "Qual é o lema da Casa Greyjoy?",
+    respostas: [
+      "'Nós não semeamos'",
+      "'O que está morto não pode morrer'",
+      "'O inverno está chegando'",
+      "'Crescendo forte'"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é o nome do bastardo de Robert Baratheon?",
+    respostas: [
+      "Gendry",
+      "Podrick",
+      "Renly",
+      "Ramsay"
     ],
     correta: 0
   },
   {
-    pergunta: "O que é uma estrutura condicional em JavaScript?",
+    pergunta: "Qual é o nome da cidade onde Daenerys Targaryen nasceu?",
     respostas: [
-      "Uma função que executa uma ação específica",
-      "Um tipo de dado que armazena condições",
-      "Um bloco de código que executa diferentes ações com base em uma condição"
+      "King's Landing",
+      "Meereen",
+      "Braavos",
+      "Pentos"
     ],
-    correta: 2
+    correta: 3
   }
 ];
